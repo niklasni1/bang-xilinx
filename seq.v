@@ -18,10 +18,10 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module seq(output [2:0] tick, output [7:0] sel, input clk);
+module seq(output reg [2:0] tick, output reg [7:0] sel, input clk);
 
-initial tick_r = 0;
-initial sel_r = 0;
+initial tick = 0;
+initial sel = 0;
 always @ (posedge clk)
 begin
 	tick = tick+1;

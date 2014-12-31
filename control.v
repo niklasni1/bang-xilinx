@@ -63,7 +63,6 @@ module registers(
     output [15:0] s8_send,
 	 output s8_trigger
     );
-
-
-
+	 
+	 
 endmodule
